@@ -1,9 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[888],{6952:function(e,r,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_app",function(){return t(3305)}])},3305:function(e,r,t){"use strict";t.r(r),t.d(r,{default:function(){return u}});var n=t(4237),o=t(8143),c=t.n(o);function s(){return(0,n.jsx)("footer",{className:c().footer,children:(0,n.jsxs)("a",{href:"https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app",target:"_blank",rel:"noopener noreferrer",children:["Powered by"," ",(0,n.jsx)("span",{className:c().logo,children:(0,n.jsx)("img",{src:"icons/favicon-32x32.png",alt:"Vercel Logo",width:16,height:16})})]})})}function u(e){let{Component:r,pageProps:t}=e;return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)("p",{children:"HEADER"}),(0,n.jsx)(r,{...t}),(0,n.jsx)(s,{})]})}t(2863)},8143:function(e){e.exports={footer:"Footer_footer__AxF0B",logo:"Footer_logo__6lv4x"}},2863:function(){},1862:function(e,r,t){"use strict";/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var n=t(4650),o=Symbol.for("react.element"),c=Symbol.for("react.fragment"),s=Object.prototype.hasOwnProperty,u=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,f={key:!0,ref:!0,__self:!0,__source:!0};function _(e,r,t){var n,c={},_=null,i=null;for(n in void 0!==t&&(_=""+t),void 0!==r.key&&(_=""+r.key),void 0!==r.ref&&(i=r.ref),r)s.call(r,n)&&!f.hasOwnProperty(n)&&(c[n]=r[n]);if(e&&e.defaultProps)for(n in r=e.defaultProps)void 0===c[n]&&(c[n]=r[n]);return{$$typeof:o,type:e,key:_,ref:i,props:c,_owner:u.current}}r.Fragment=c,r.jsx=_,r.jsxs=_},4237:function(e,r,t){"use strict";e.exports=t(1862)}},function(e){var r=function(r){return e(e.s=r)};e.O(0,[179],function(){return r(6952),r(348)}),_N_E=e.O()}]);

@@ -1,4 +1,4 @@
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/Pages.module.css';
 
 export default function New({ navigateToPage}) {
     return (
@@ -8,11 +8,11 @@ export default function New({ navigateToPage}) {
           <p className={styles.description}>
             This is an example of a Browser Extension built with NEXT.JS.
             Please refer to the GitHub repo for running instructions and
-            documentation.
+            documentation
           </p>
-          <h1 className={styles.code}>New Page</h1>
-          <p>This is the New Page content.</p>
-          <p onClick={() => navigateToPage('index')}>Go to New Page</p>
+          <h1 className={styles.code}>New Page ./components/New/index.js</h1>
+          <p>{"[ - This is New page content - ]"}</p>
+          <p onClick={() => navigateToPage('index')}>{"< Go Back"}</p>
         </main>
       </div>
     );

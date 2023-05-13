@@ -9,17 +9,10 @@ export default function Home() {
     setActivePage(page);
   };
 
-  const renderPage = () => {
-    if (activePage === 'index') {
-      return <Index navigateToPage={navigateToPage} />;
-    } else if (activePage === 'new') {
-      return <New navigateToPage={navigateToPage} />;
-    }
-
-    // Handle other pages here if needed
-
-    return null;
-  };
-
-  return <>{renderPage()}</>;
+  return (
+    <>
+      {activePage === 'index' && <Index navigateToPage={navigateToPage} />}
+      {activePage === 'new' && <New navigateToPage={navigateToPage} />}
+    </>
+  );
 }

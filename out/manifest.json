@@ -9,7 +9,7 @@
     "32": "/icons/favicon-32x32.png",
     "192": "/icons/android-chrome-192x192.png"
   },
-  "permissions": [   "tabs"],
+  "permissions": [],
   "web_accessible_resources": [
     {
       "resources": ["index.html"],

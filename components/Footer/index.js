@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-      Footer V.0.0.1
+        Footer V.0.0.1
         <span className={styles.logo}>
           <img
             src="icons/favicon-32x32.png"
