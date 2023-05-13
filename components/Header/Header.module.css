@@ -1,0 +1,7 @@
+.head {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: medium;
+    color: #757bc3;
+}
