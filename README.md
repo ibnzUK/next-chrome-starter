@@ -17,7 +17,7 @@ The Next.js Chrome Extension Starter provides a foundation for building Chrome e
 
 ![Preview](Screen2.jpg)
 
-## Installation
+# Installation
 
 To install and run Next.js Chrome Extension Starter locally, follow these steps:
 
@@ -42,7 +42,7 @@ To install and run Next.js Chrome Extension Starter locally, follow these steps:
    ```
 
 # Usage
-## Usage Locally 🔥 
+## Usage Locally  🔥
 To run the Next.js Chrome Extension Starter locally, follow these steps:
 
 Run the project:
@@ -53,7 +53,7 @@ npm run dev
 
  http://localhost:3000/
 
-## Build and Import To Chrome 🔥 
+## Build and Import To Chrome 🔥
 To build and import Next.js Chrome Extension Starter to chrome browser, follow these steps:
 
 1. Build the project:
