@@ -1,5 +1,4 @@
-/.DS_Store
+.DS_Store
 /.next
 /node_modules
 /.env
-/out

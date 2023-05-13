@@ -1,21 +1,25 @@
-import Link from 'next/link';
-import styles from '../styles/Home.module.css';
+import React, { useState } from 'react';
+import Index from '../components/Index';
+import New from '../components/New';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>NEXT-CHROME-STARTER</h1>
-        <p className={styles.description}>This is an example of Browser Extension built with NEXT.JS. Please reffer to github repo for running instructions and documentation </p>
-      
-          <code className={styles.code}>pages/index.js</code>
-     
-        <Link
-          href={process.env.NODE_ENV === 'development' ? '/NewPage' : '/NewPage.html'}
-        >
-          <p>Go To New Page</p>
-        </Link>
-      </main>
-    </div>
-  );
+  const [activePage, setActivePage] = useState('index');
+
+  const navigateToPage = (page) => {
+    setActivePage(page);
+  };
+
+  const renderPage = () => {
+    if (activePage === 'index') {
+      return <Index navigateToPage={navigateToPage} />;
+    } else if (activePage === 'new') {
+      return <New navigateToPage={navigateToPage} />;
+    }
+
+    // Handle other pages here if needed
+
+    return null;
+  };
+
+  return <>{renderPage()}</>;
 }

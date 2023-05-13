@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <a
-        href="https://github.com"
+        href="https://github.com/ibnzUK/next-chrome-starter"
         target="_blank"
         rel="noopener noreferrer"
       >
