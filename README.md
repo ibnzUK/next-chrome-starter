@@ -5,7 +5,7 @@ Next.js Chrome Extension Starter is a demo example application that demonstrates
 ## Table of Contents ✨  
 
 - [Description](#description)
-- [Installation](#installation)
+- [Installation](##installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -13,6 +13,9 @@ Next.js Chrome Extension Starter is a demo example application that demonstrates
 ## Description
 
 The Next.js Chrome Extension Starter provides a foundation for building Chrome extensions using Next.js, React, and other related technologies. It showcases the integration of Next.js and Chrome extension development by demonstrating a simple application with multiple pages.
+
+
+![Preview](Screen2.jpg)
 
 ## Installation 🔥 
 
@@ -68,7 +71,7 @@ npm run build
 
 5. The Next.js Chrome Extension Starter should now be loaded as an unpacked extension in Google Chrome.
 
-
+![Preview](Screen1.jpg)
 
 
 
