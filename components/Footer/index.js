@@ -11,7 +11,7 @@ export default function Footer() {
         Footer V.0.0.1
         <span className={styles.logo}>
           <img
-            src="icons/favicon-32x32.png"
+            src="icons/icon16.png"
             alt="Logo"
             width={16}
             height={16}
