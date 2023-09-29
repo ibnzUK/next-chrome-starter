@@ -31,11 +31,6 @@ To install and run Next.js Chrome Extension Starter locally, follow these steps:
    ```
    cd next-chrome-starter
    ```
-3. Navigate to project directory: 
-
-   ```
-   cd next-chrome-starter
-   ```
 4. Install the dependencies using npm: 
    ```
    npm install
